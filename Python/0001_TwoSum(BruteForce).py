@@ -10,3 +10,9 @@ class Solution(object):
                 if nums[i] + nums[j] == target:
                     return j, i
         
+
+## 測試
+## nums = [2,7,11,15]
+## target = 9
+
+## print(Solution.twoSum(None, nums, target))
