@@ -11,19 +11,21 @@ class Solution:
         print(l2)
         
         while True:
+            sum = 0
+            
             if l1 == None and l2 == None:
                 break
             if l1 != None:
-                print(l1.val)
+                sum = sum + l1.val
                 l1 = l1.next
             else:
-                print(l1.val)
+                sum = sum + l1.val
                 
             if l2 != None:
-                print(l2.val)
+                sum = sum + l2.val
                 l2 = l2.next
             else:
-                print(l2.val)
+                sum = sum + l2.val
                 
                 
         return l3
