@@ -6,9 +6,6 @@ class ListNode:
 class Solution:
     def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
         
-        
-        print(l1)
-        print(l2)
         carry = 0
         l3 = ListNode
         head = l3
