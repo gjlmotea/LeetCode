@@ -8,8 +8,11 @@ class Solution:
                     return j, i
 
 
-#測試
-#nums = [2,7,11,15]
-#target = 9
 
-#print(Solution.twoSum(object(), nums, target))
+## Test
+'''
+nums = [2,7,11,15]
+target = 90
+
+print(Solution.twoSum(object(), nums, target))
+'''
