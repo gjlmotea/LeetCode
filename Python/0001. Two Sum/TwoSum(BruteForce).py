@@ -12,7 +12,6 @@ class Solution:
 ## Test
 '''
 nums = [2,7,11,15]
-target = 90
-
-print(Solution.twoSum(object(), nums, target))
+target = 9
+print(Solution().twoSum(nums, target))  #0, 1
 '''

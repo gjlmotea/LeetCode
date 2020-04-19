@@ -14,6 +14,5 @@ class Solution:
 '''
 nums = [10, 30, 30, 20, 40, 50]
 target = 60
-a = Solution
-print(Solution.twoSum(object(), nums, target))
+print(Solution().twoSum(nums, target)) #1, 2
 '''
